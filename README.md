@@ -7,3 +7,8 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
 ```MP-G_RUNNER.sh [upsample_rate] [cutoff-distance]```  
 ```MP-G.R```  
 
+```MP-MP_RUNNER_RAND-1-100.sh```  
+```MP-G_RUNNER_RAND-1-100.sh```  
+
+```report-maker.sh```  
+
