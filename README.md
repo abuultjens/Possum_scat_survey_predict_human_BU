@@ -4,11 +4,16 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
 # Data files
 
 
+```  
+US_list.txt  
+CD_list.txt  
+```
+
 # Scripts
 
 ### Run cross-validation on Mornington Peninsula data
 ```  
-sh MP-MP_RUNNER.sh [upsample_rate] [cutoff-distance]  
+sh MP-MP_RUNNER.sh
   
 runs:  
 MP-MP.R  
