@@ -43,9 +43,15 @@ MP-G.R
 
 ```  
 sh MP-MP_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
+  
+runs:  
+MP-MP.R  
     
  
 sh MP-G_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
+  
+runs:  
+MP-G.R  
 ```  
 
 
