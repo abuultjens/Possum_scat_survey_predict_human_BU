@@ -39,18 +39,26 @@ CD_list.txt
 
 ### Run cross-validation on Mornington Peninsula data
 ```  
+command:  
 sh MP-MP_RUNNER.sh
   
 runs:  
 MP-MP.R  
 
 outfiles:
-  
+MP-MP_US-[US]_CD-[CD]_AUC.csv  
+MP-MP_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
+MP-MP_US-[US]_CD-[CD]_stats.csv  
+MP-MP_US-[US]_CD-[CD]_matrix.csv  
+MP-MP_US-[US]_CD-[CD]_any.csv  
+MP-MP_US-[US]_CD-[CD]_pred_any.csv  
+MP-MP_US-[US]_CD-[CD]_ranking.csv  
 ```  
  
 ### Generate cross-validation report
 
 ```  
+command:  
 sh report-maker.sh  
 
 outfile:  
@@ -59,30 +67,60 @@ report.csv
 
 ### Determine model with greatest AUC
 ```  
+command:  
 tail -n +2 report.csv | sort -t ',' -k 17 -nr | head -1 | cut -f 1 -d ','  
 ```  
 
 ### Run best model on previously unseen Geelong data
 ```  
+command:  
 sh MP-G_RUNNER.sh [upsample_rate] [cutoff-distance]  
   
 runs:  
 MP-G.R  
+  
+outfiles:  
+MP-G_US-[US]_CD-[CD]_AUC.csv  
+MP-G_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
+MP-G_US-[US]_CD-[CD]_stats.csv  
+MP-G_US-[US]_CD-[CD]_matrix.csv  
+MP-G_US-[US]_CD-[CD]_any.csv  
+MP-G_US-[US]_CD-[CD]_pred_any.csv  
+MP-G_US-[US]_CD-[CD]_ranking.csv  
 ```  
 
 ### Run best model with randomised scat location information
 
-```  
+``` 
+command:  
 sh MP-MP_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
   
 runs:  
 MP-MP.R  
-    
- 
+  
+outfiles:  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_AUC.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_predictions_to_evaluate.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_stats.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_matrix.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_any.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_pred_any.csv  
+MP-MP_US-[US]_CD-[CD]_RAND-REP-[REP]_ranking.csv  
+  
+command:   
 sh MP-G_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
   
 runs:  
 MP-G.R  
+  
+outfiles:
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_AUC.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_predictions_to_evaluate.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_stats.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_matrix.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_any.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_pred_any.csv  
+MP-G_US-[US]_CD-[CD]_RAND-REP-[REP]_ranking.csv  
 ```  
 
 
