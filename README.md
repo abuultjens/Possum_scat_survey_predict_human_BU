@@ -30,3 +30,8 @@ MP-G_RUNNER_RAND-1-100.sh
 report-maker.sh  
 ```  
 
+### Determine model with greatest AUC
+```  
+tail -n +2 report.csv | sort -t ',' -k 17 -nr | head -1 | cut -f 1 -d ','  
+```  
+
