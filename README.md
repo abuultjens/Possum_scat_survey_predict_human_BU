@@ -4,15 +4,29 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
 # Data files
 
 ```  
-20210811_Extract4Nick.csv  
-20210811_Extract4Nick_GEELONG_ONLY.xlsx  
-'BU NHMRC NickGolding SpatialEpi data NO PHESSID_Jan to 9 Nov 2021.xlsx'  
-'BU NHMRC NickGolding SpatialEpi data NO PHESSID_upd 26 Nov 2019.xlsx'  
-'BU NHMRC NickGolding SpatialEpi data with NO PHESSID_2019 and 2020.xlsx'  
-MB_2011_VIC_Census_counts_Centroids_LatLong  
-MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only  
-MP_RAND  
-pred_abund_quadcorrect_28May.tif  
+Mornington Peninsula scat data:  
+data/20210811_Extract4Nick.csv  
+  
+Geelong scat data:  
+data/20210811_Extract4Nick_GEELONG_ONLY.xlsx  
+  
+Possum abundance data:  
+data/pred_abund_quadcorrect_28May.tif  
+  
+Victorian Buruli ulcer case data:  
+data/'BU NHMRC NickGolding SpatialEpi data NO PHESSID_Jan to 9 Nov 2021.xlsx'  
+data/'BU NHMRC NickGolding SpatialEpi data NO PHESSID_upd 26 Nov 2019.xlsx'  
+data/'BU NHMRC NickGolding SpatialEpi data with NO PHESSID_2019 and 2020.xlsx'  
+  
+Mornington Peninsula spatial data:  
+data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only  
+  
+Geelong spatial data:  
+data/MB_2011_VIC_Census_counts_Centroids_LatLong  
+  
+Mornington Peninsula scat data with randomised location information:  
+data/MP_RAND/20210811_Extract4Nick_RAND-[1-100].csv  
+
 ```
 
 
