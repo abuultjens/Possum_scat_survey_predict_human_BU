@@ -5,33 +5,48 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
 
 
 # Scripts
+
+### Run cross-validation on Mornington Peninsula data
 ```  
-MP-MP_RUNNER.sh [upsample_rate] [cutoff-distance]  
+sh MP-MP_RUNNER.sh [upsample_rate] [cutoff-distance]  
   
 runs:  
 MP-MP.R  
-```  
+
+outfiles:
   
 ```  
-MP-G_RUNNER.sh [upsample_rate] [cutoff-distance]  
-  
-runs:  
-MP-G.R  
-```  
+ 
+### Generate cross-validation report
 
 ```  
-MP-MP_RUNNER_RAND-1-100.sh  
-    
-runs:  
-MP-G_RUNNER_RAND-1-100.sh  
-```  
+sh report-maker.sh  
 
-```  
-report-maker.sh  
+outfile:  
+report.csv  
 ```  
 
 ### Determine model with greatest AUC
 ```  
 tail -n +2 report.csv | sort -t ',' -k 17 -nr | head -1 | cut -f 1 -d ','  
 ```  
+
+### Run best model on previously unseen Geelong data
+```  
+sh MP-G_RUNNER.sh [upsample_rate] [cutoff-distance]  
+  
+runs:  
+MP-G.R  
+```  
+
+
+
+
+```  
+sh sh MP-MP_RUNNER_RAND-1-100.sh  
+    
+ 
+sh MP-G_RUNNER_RAND-1-100.sh  
+```  
+
 
