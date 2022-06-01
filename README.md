@@ -39,14 +39,13 @@ runs:
 MP-G.R  
 ```  
 
-
-
+### Run best model with randomised scat location information
 
 ```  
-sh sh MP-MP_RUNNER_RAND-1-100.sh  
+sh MP-MP_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
     
  
-sh MP-G_RUNNER_RAND-1-100.sh  
+sh MP-G_RUNNER_RAND-1-100.sh [upsample_rate] [cutoff-distance]  
 ```  
 
 
