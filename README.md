@@ -35,6 +35,20 @@ US_list.txt
 CD_list.txt  
 ```
 
+# Dependencies  
+  
+raster  
+tidyverse  
+readxl  
+sf  
+greta  
+rgdal  
+flexclust  
+multidplyr  
+dplyr  
+caret  
+  
+
 # Scripts
 
 ### Run cross-validation on Mornington Peninsula data
