@@ -37,17 +37,28 @@ CD_list.txt
 
 # Dependencies  
   
-raster  
-tidyverse  
-readxl  
-sf  
-greta  
-rgdal  
-flexclust  
-multidplyr  
-dplyr  
-caret  
-  
+```  
+caret_6.0-92  
+multidplyr_0.1.1  
+flexclust_1.4-0  
+modeltools_0.2-23  
+lattice_0.20-45  
+rgdal_1.5-28  
+greta_0.4.2   
+sf_1.0-6           
+readxl_1.3.1  
+forcats_0.5.1  
+stringr_1.4.0  
+dplyr_1.0.7        
+purrr_0.3.4  
+readr_2.1.2  
+tidyr_1.2.0  
+tibble_3.1.6       
+ggplot2_3.3.5  
+tidyverse_1.3.1  
+raster_3.5-15  
+sp_1.4-6  
+```  
 
 # Scripts
 
