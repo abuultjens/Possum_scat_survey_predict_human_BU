@@ -38,6 +38,7 @@ CD_list.txt
 # Dependencies  
   
 ```  
+R version 4.1.2   
 caret_6.0-92  
 multidplyr_0.1.1  
 flexclust_1.4-0  
