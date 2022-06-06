@@ -2,6 +2,13 @@
 Statistical modelling using pathogen presence in possum scat surveys to predict BU cases in humans
 
 # Data files
+```  
+# uncompress spatial data folders  
+cd data/  
+tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz  
+tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz  
+cd ../  
+```
 
 ```  
 Mornington Peninsula scat data:  
