@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Build model on MP data and then predict on G data
 
 CD=$1
 US=$2
