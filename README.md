@@ -3,13 +3,11 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
 
 # Data files
 ```  
-# uncompress spatial data folders  
-cd data/  
-tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz  
-tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz  
-cd ../  
+# uncompress spatial data folders   
+tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
+tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
 ```
-
+  
 ```  
 Mornington Peninsula scat data:  
 data/20210811_Extract4Nick.csv  
