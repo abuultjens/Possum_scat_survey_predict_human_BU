@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Build model on MP data and predict on MP data with cross validation
 
 for US in $(cat US_list.txt); do
 
