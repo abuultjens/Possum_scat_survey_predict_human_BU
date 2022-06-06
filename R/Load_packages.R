@@ -1,0 +1,39 @@
+
+#install.packages("raster")
+library(raster)
+#install.packages("tidyverse")
+library(tidyverse)
+library(readxl)
+library(sf)
+#devtools::install_github("greta-dev/greta")
+#install.packages(c("tensorflow","greta"), repos='http://cran.us.r-project.org')
+library(greta)
+#greta::install_tensorflow(extra_packages = "tensorflow-probability")
+
+
+#install.packages("rgdal")
+library(rgdal)
+
+#install.packages("flexclust")
+library(flexclust)
+
+#devtools::install_github("tidyverse/multidplyr")
+library(multidplyr)
+
+#devtools::install_github("tidyverse/dplyr")
+library(dplyr)
+
+#install.packages("ggplot")
+#library(ggplot)
+
+library('geosphere')
+#library('mapview')
+
+# AUC and ROC
+#library(precrec)
+
+# confusion matrix
+#library(caret)
+
+
+
