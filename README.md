@@ -1,6 +1,8 @@
 # Possum_scat_survey_predict_human_BU
-Statistical modelling using pathogen presence in possum scat surveys to predict BU cases in humans
-
+Statistical modelling using pathogen presence in possum scat surveys to predict BU cases in humans.
+  
+These scripts are presented here in a serial manner to improve comprehension of the analytical pipeline. Several of the following steps can be greatly sped up by running in parallel. If running on a HPC system, it is recommended that MP-MP_RUNNER.sh, MP-MP_RUNNER_RAND-1-100.sh and MP-G_RUNNER_RAND-1-100.sh are run in parallel.
+  
 # Data files
 ```  
 # uncompress spatial data folders   
