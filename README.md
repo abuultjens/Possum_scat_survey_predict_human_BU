@@ -67,7 +67,10 @@ tidyverse_1.3.1
 raster_3.5-15  
 sp_1.4-6  
 ```  
-
+  
+Instructions on installing greta  
+https://cran.r-project.org/web/packages/greta/vignettes/get_started.html  
+  
 # Scripts
 
 ### Run cross-validation on Mornington Peninsula data
