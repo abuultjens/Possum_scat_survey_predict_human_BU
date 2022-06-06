@@ -2,8 +2,8 @@
 
 # Build model on MP data and then predict on G data
 
-CD=$1
-US=$2
+US=$1
+CD=$2
 
 PREFIX=MP-G_US-${US}_CD-${CD}
 
