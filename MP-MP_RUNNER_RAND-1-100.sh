@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-CD=$1
-US=$2
+US=$1
+CD=$2
 
 for REP in {1..100}; do
 
