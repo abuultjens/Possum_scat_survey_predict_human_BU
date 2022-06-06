@@ -6,8 +6,8 @@ These scripts are presented here in a serial manner to improve comprehension of 
 # Data files
 ```  
 # uncompress spatial data folders   
-tar -xf MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
+tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C data/  
 ```
   
 ```  
