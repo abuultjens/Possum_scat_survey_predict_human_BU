@@ -1,5 +1,5 @@
 # Possum_scat_survey_predict_human_BU
-Statistical modelling using pathogen presence in possum scat surveys to predict BU cases in humans.
+Statistical modelling using pathogen presence in possum scat surveys to predict the emergence of BU cases in humans.
   
 # Data files
 ```  
