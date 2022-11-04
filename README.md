@@ -38,15 +38,11 @@ data/MP_RAND/20210811_Extract4Nick_RAND-[1-100].csv
   
 ```  
 R version 4.1.2   
-caret_6.0.92
-dplyr_1.0.8.9000
 flexclust_1.4.0
-geosphere_1.5.14
-multidplyr_0.1.1.9000
 raster_3.5.15
 readxl_1.4.0
-rgdal_1.5.29
 sf_1.0.7
+tidyverse_1.3.1
  
 ```  
   
