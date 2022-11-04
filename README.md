@@ -53,13 +53,11 @@ https://cran.r-project.org/web/packages/greta/vignettes/get_started.html
 
 ### Run cross-validation on Mornington Peninsula data
 ```  
-MP-MP.R  
+Rscript MP-MP.R  
 
 outfiles:
 MP-MP_US-[US]_CD-[CD]_AUC.csv  
 MP-MP_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
-MP-MP_US-[US]_CD-[CD]_stats.csv  
-MP-MP_US-[US]_CD-[CD]_matrix.csv  
 MP-MP_US-[US]_CD-[CD]_any.csv  
 MP-MP_US-[US]_CD-[CD]_pred_any.csv  
 MP-MP_US-[US]_CD-[CD]_ranking.csv  
@@ -68,13 +66,11 @@ MP-MP_US-[US]_CD-[CD]_ranking.csv
 ### Run trained model on previously unseen Geelong data
 ```  
 
-MP-G.R  
+Rscript MP-G.R  
   
 outfiles:  
 MP-G_US-[US]_CD-[CD]_AUC.csv  
 MP-G_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
-MP-G_US-[US]_CD-[CD]_stats.csv  
-MP-G_US-[US]_CD-[CD]_matrix.csv  
 MP-G_US-[US]_CD-[CD]_any.csv  
 MP-G_US-[US]_CD-[CD]_pred_any.csv  
 MP-G_US-[US]_CD-[CD]_ranking.csv  
