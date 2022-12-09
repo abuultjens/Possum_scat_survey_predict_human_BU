@@ -19,9 +19,7 @@ Possum abundance data:
 data/pred_abund_quadcorrect_28May.tif  
   
 Victorian Buruli ulcer case data:  
-data/'BU NHMRC NickGolding SpatialEpi data NO PHESSID_Jan to 9 Nov 2021.xlsx'  
-data/'BU NHMRC NickGolding SpatialEpi data NO PHESSID_upd 26 Nov 2019.xlsx'  
-data/'BU NHMRC NickGolding SpatialEpi data with NO PHESSID_2019 and 2020.xlsx'  
+data/cases_MB_YEAR.xlsx  
   
 Mornington Peninsula spatial data:  
 data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only  
