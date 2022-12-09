@@ -10,10 +10,10 @@ tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C d
   
 ```  
 Mornington Peninsula scat data:  
-data/20210811_Extract4Nick.csv  
+data/20210811_Extract.csv  
   
 Geelong scat data:  
-data/20210811_Extract4Nick_GEELONG_ONLY.xlsx  
+data/20210811_Extract_GEELONG_ONLY.xlsx  
   
 Possum abundance data:  
 data/pred_abund_quadcorrect_28May.tif  
@@ -28,9 +28,6 @@ data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only
   
 Geelong spatial data:  
 data/MB_2011_VIC_Census_counts_Centroids_LatLong  
-  
-Mornington Peninsula scat data with randomised location information:  
-data/MP_RAND/20210811_Extract4Nick_RAND-[1-100].csv  
 
 ```
 
