@@ -10,7 +10,7 @@ tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C d
   
 ```  
 Mornington Peninsula scat data:  
-data/20210811_Extract.csv  
+data/20210811_Extract.xlsx  
   
 Geelong scat data:  
 data/20210811_Extract_GEELONG_ONLY.xlsx  
