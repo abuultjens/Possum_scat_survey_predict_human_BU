@@ -68,7 +68,6 @@ raster_3.5.15
 readxl_1.4.0
 sf_1.0.7
 tidyverse_1.3.1
- 
 ```  
   
 Instructions on installing greta  
