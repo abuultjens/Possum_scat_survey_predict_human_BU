@@ -3,6 +3,30 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
   
 # Data files
 ```  
+# SatScan files
+Bernoulli summer:  
+SatScan/Satscan_Bernoulli_summer_cases.txt  
+SatScan/Satscan_Bernoulli_summer_contr.txt  
+SatScan/Satscan_Bernoulli_summer_geo.txt  
+SatScan/Satscan_Bernoulli_summer_satscan_project.prm  
+Bernoulli winter:  
+SatScan/Satscan_Bernoulli_winter_plus_HR_cases.txt  
+SatScan/Satscan_Bernoulli_winter_plus_HR_contr.txt  
+SatScan/Satscan_Bernoulli_winter_plus_HR_geo.txt  
+SatScan/Satscan_Bernoulli_winter_plus_HR_satscan_project.prm  
+Poisson summer:  
+SatScan/Satscan_Poisson_summer.cas  
+SatScan/Satscan_Poisson_summer.geo  
+SatScan/Satscan_Poisson_summer.pop  
+SatScan/Satscan_Poisson_summer_Satscan_project.prm  
+Poisson winter:  
+SatScan/Satscan_Poisson_winter.cas  
+SatScan/Satscan_Poisson_winter.geo  
+SatScan/Satscan_Poisson_winter.pop  
+SatScan/Satscan_Poisson_winter_Satscan_project_file.prm  
+```  
+  
+```  
 # uncompress spatial data folders   
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C data/  
