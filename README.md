@@ -79,12 +79,11 @@ https://cran.r-project.org/web/packages/greta/vignettes/get_started.html
 ```  
 Rscript MP-MP.R  
 
-outfiles:
-MP-MP_US-[US]_CD-[CD]_AUC.csv  
-MP-MP_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
-MP-MP_US-[US]_CD-[CD]_any.csv  
-MP-MP_US-[US]_CD-[CD]_pred_any.csv  
-MP-MP_US-[US]_CD-[CD]_ranking.csv  
+outfiles:  
+2018_MP-MP_previous_year_incidence_AUC.csv  
+MEAN_RAND-1-100_MP-MP_meshblock18_ranking.csv  
+MP-MP_PRESENCE_101-171_AB-DATA_AUC.csv  
+MEAN_RAND-1-100_MP-MP_scat-model_ranking.csv  
 ```  
 
 ### Run trained model on previously unseen Geelong data
@@ -92,11 +91,10 @@ MP-MP_US-[US]_CD-[CD]_ranking.csv
 Rscript MP-G.R  
   
 outfiles:  
-MP-G_US-[US]_CD-[CD]_AUC.csv  
-MP-G_US-[US]_CD-[CD]_predictions_to_evaluate.csv  
-MP-G_US-[US]_CD-[CD]_any.csv  
-MP-G_US-[US]_CD-[CD]_pred_any.csv  
-MP-G_US-[US]_CD-[CD]_ranking.csv  
+2019_MP-G_previous_year_incidence_AUC.csv  
+MEAN_RAND-1-100_MP-G_meshblock19_ranking.csv  
+MP-G_US-1_PRESENCE_101-171_AB-DATA_AUC.csv  
+MEAN_RAND-1-100_MP-G_scat-model_ranking.csv  
 ```  
 
 
