@@ -2,9 +2,10 @@
 Statistical modelling using pathogen presence in possum scat surveys to predict the emergence of BU cases in humans.
   
 # Data files
-```  
-# SatScan files  
   
+## SatScan files  
+  
+```   
 Bernoulli summer:  
 SatScan/Satscan_Bernoulli_summer_cases.txt  
 SatScan/Satscan_Bernoulli_summer_contr.txt  
@@ -30,9 +31,10 @@ SatScan/Satscan_Poisson_winter.pop
 SatScan/Satscan_Poisson_winter_Satscan_project_file.prm  
 ```  
   
-```  
-# Spatial model files
+ 
+## Spatial model files
   
+``` 
 uncompress spatial data folders   
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C data/  
