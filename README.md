@@ -31,12 +31,12 @@ SatScan/Satscan_Poisson_winter_Satscan_project_file.prm
 ```  
   
 ```  
-# uncompress spatial data folders   
+# Spatial model files
+  
+uncompress spatial data folders   
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong.tar.gz -C data/  
 tar -xf data/MB_2011_VIC_Census_counts_Centroids_LatLong_MorPen_Only.tar.gz -C data/  
-```
   
-```  
 Mornington Peninsula scat data:  
 data/20210811_Extract.xlsx  
   
