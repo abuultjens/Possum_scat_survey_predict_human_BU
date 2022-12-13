@@ -89,7 +89,6 @@ MP-MP_US-[US]_CD-[CD]_ranking.csv
 
 ### Run trained model on previously unseen Geelong data
 ```  
-
 Rscript MP-G.R  
   
 outfiles:  
