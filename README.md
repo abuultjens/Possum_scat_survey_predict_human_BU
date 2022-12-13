@@ -9,16 +9,19 @@ SatScan/Satscan_Bernoulli_summer_cases.txt
 SatScan/Satscan_Bernoulli_summer_contr.txt  
 SatScan/Satscan_Bernoulli_summer_geo.txt  
 SatScan/Satscan_Bernoulli_summer_satscan_project.prm  
+  
 Bernoulli winter:  
 SatScan/Satscan_Bernoulli_winter_plus_HR_cases.txt  
 SatScan/Satscan_Bernoulli_winter_plus_HR_contr.txt  
 SatScan/Satscan_Bernoulli_winter_plus_HR_geo.txt  
 SatScan/Satscan_Bernoulli_winter_plus_HR_satscan_project.prm  
+  
 Poisson summer:  
 SatScan/Satscan_Poisson_summer.cas  
 SatScan/Satscan_Poisson_summer.geo  
 SatScan/Satscan_Poisson_summer.pop  
 SatScan/Satscan_Poisson_summer_Satscan_project.prm  
+  
 Poisson winter:  
 SatScan/Satscan_Poisson_winter.cas  
 SatScan/Satscan_Poisson_winter.geo  
