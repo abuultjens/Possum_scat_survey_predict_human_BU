@@ -3,7 +3,8 @@ Statistical modelling using pathogen presence in possum scat surveys to predict 
   
 # Data files
 ```  
-# SatScan files
+# SatScan files  
+  
 Bernoulli summer:  
 SatScan/Satscan_Bernoulli_summer_cases.txt  
 SatScan/Satscan_Bernoulli_summer_contr.txt  
