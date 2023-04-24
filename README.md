@@ -1,5 +1,5 @@
 # Possum_scat_survey_predict_human_BU
-Statistical modelling using pathogen presence in possum scat surveys to predict the emergence of Buruli ulcer cases in humans. A manuscript describing it and its use can be found at https://elifesciences.org/articles/84983  
+Statistical modelling using pathogen presence in possum scat surveys to predict the emergence of Buruli ulcer cases in humans. A manuscript describing this approach and its use can be found at https://elifesciences.org/articles/84983  
   
 # Data files
   
